@@ -1,0 +1,181 @@
+.catimg {
+	width: 100%;
+}
+
+.catcarol {
+	width: 100%;
+	height: 100%;
+}
+
+.spacing {
+	height: 10px;
+}
+
+.voteContainer {
+	width: 100%;
+}
+
+.margin {
+	margin-bottom: 20px;
+}
+
+.catCard {
+	margin: 0 auto;
+	max-width: 800px;
+	position: relative;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex2 {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.flex3 {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex4 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.selector {
+	width: 100%;
+	max-width: 600px;
+}
+
+.selectorBar {
+	width: 90%;
+}
+
+.hide {
+	display: none;
+}
+
+.cat {
+	width: 70%;
+	border-radius: 4px;
+}
+
+.flag {
+	margin-top: 12px;
+	width: 200px;
+}
+
+.circle {
+  background-color:#fff;
+  border:1px solid black;    
+  height:40px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.mWidth {
+	max-width: 500px
+}
+
+.left {
+/*  position: absolute;
+  margin-top: 25%;
+  margin-left: 2%;*/
+}
+
+.right {
+/*  position: absolute;
+  margin-top: 25%;
+  margin-left: -7%;*/
+}
+
+.ahref {
+	color: #232222;
+	text-decoration: none;
+}
+
+.circle:hover {
+	cursor: pointer;
+}
+
+.catSearchDiv {
+	display:flex;
+	width: 100%;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+	.right {
+		margin-left: -9%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.right {
+		margin-left:  -12%
+	}
+	.flex4 {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+.image {
+	border: 1px solid #ccc;
+	background: #fefefe;
+	margin: 10px auto 
+}
+
+.favButton {
+	font-size: 1rem;
+	border-radius: 4px;
+	border: none;
+}
+
+.favButton:hover{
+	background-color:#dbdbdb;
+	cursor: pointer;
+}
+
+.buttonPag {
+	margin-top: 15px;
+	font-size: 2rem;
+	border-radius: 4px;
+	margin-right: 1%;
+}
+
+.buttonPag:hover {
+	cursor:pointer;
+	background-color:grey;
+	color:white;
+}
+
+.hidden {
+	display:none;
+}
+
+.heart {
+	position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  display:none;
+}
+
+.show {
+	display:block;
+}

@@ -1,0 +1,18 @@
+.facebook {
+	width: 150px;
+}
+
+.facebook:hover {
+	cursor:pointer;
+}
+
+.Container {
+	margin: 30px auto;
+	max-width: 800px;
+	border:solid black 1px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 2%;
+}
