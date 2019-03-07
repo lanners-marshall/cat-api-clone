@@ -15,6 +15,8 @@ import Typography from '@material-ui/core/Typography';
 import Flag from 'react-world-flags'
 import StarRatings from 'react-star-ratings';
 
+import Image from 'react-image-resizer';
+
 import {getbreed, getObjs, moveRight, moveLeft} from '../store/actions/catActions'
 
 const styles = {

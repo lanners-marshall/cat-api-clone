@@ -5,6 +5,7 @@ import Login from './auth/Login.js'
 import Vote from './components/Vote.js'
 import Breeds from './components/Breeds.js'
 import ImageSearch from './components/ImageSearch'
+import Favs from './components/Favs'
 
 import firebase from 'firebase';
 import './custom.css'
@@ -72,7 +73,9 @@ class App extends Component {
 							<Route path="/" component={Login} />
       			) : (
       				<div className="container"> 
+
                 <div className={classes.root}>
+                <p onClick={() => {firebase.auth().signOut();}}>Sign Out</p>
                   <AppBar position="static" color="default">
                     <Tabs
                       value={this.state.value}
@@ -96,7 +99,7 @@ class App extends Component {
                     <TabContainer dir={theme.direction}><Vote/></TabContainer>
                     <TabContainer dir={theme.direction}><Breeds/></TabContainer>
                     <TabContainer dir={theme.direction}><ImageSearch/></TabContainer>
-                    <TabContainer dir={theme.direction}>Item FOUR</TabContainer>
+                    <TabContainer dir={theme.direction}><Favs/></TabContainer>
                     <TabContainer dir={theme.direction}>Item FIVE</TabContainer>
                   </SwipeableViews>
                 </div>
